@@ -48,4 +48,11 @@ uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
 		${DESTDIR}${MANPREFIX}/man1/dwm.1
 
+create:
+	make all
+	sudo make install
+	make clean
+	rm config.h
+	tar cvf ~/gitClones/spounka-suckless-configs/dwm-6.2.tar.gz ../dwm-6.2/
+
 .PHONY: all options clean dist install uninstall
