@@ -45,6 +45,7 @@ static const Rule rules[] = {
     { "Joplin",                 "joplin",               NULL,                   1 << 2,       0,           -1 },
     { "figma-linux",            "figma-linux",          NULL,                   1 << 3,       0,           -1 },
 	{ "DBeaver",                "DBeaver",              NULL,                   1 << 4,       0,           -1 },
+	{ "Thunar",                 "thunar",               NULL,                   1 << 5,       0,           -1 },
 	{ "dolphin",                "dolphin",              NULL,                   1 << 5,       0,           -1 },
 	{ "Org.gnome.Nautilus",     "org.gnome.Nautilus",   NULL,                   1 << 5,       0,           -1 },
 	{ "st-256color",            "st-256color",          "ranger",               1 << 5,       0,           -1 },
