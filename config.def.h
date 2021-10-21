@@ -90,10 +90,9 @@ static const char* nvim[] = {"st", "-e", "nvim", NULL};
 static const char* ranger[] = {"st", "-e","ranger", NULL};
 
 // Browsers
-//static const char* qutebrowser[] = {"qutebrowser", NULL};
-//static const char* chrome[] = {"google-chrome-stable", NULL};
-//static const char* vivaldi[] = {"vivaldi-stable", NULL};
-static const char* firefox[] = {"firefox", NULL};
+#define BROWSER "brave"
+
+static const char* browser[] = {BROWSER, NULL};
 
 // Editors
 static const char* vscode[] = {"code", NULL};
@@ -130,7 +129,7 @@ static const char* higherLight[] = {"xbacklight", "-inc", "2%"};
 static Key keys[] = {
     /* ---------------- Personal Commands ---------------- */
 
-    { MODKEY|ShiftMask,     		XK_b,    spawn,           {.v = firefox}},
+    { MODKEY|ShiftMask,     		XK_b,    spawn,           {.v = browser}},
 
     { MODKEY,               		XK_v,    spawn,           {.v = vscode}},
     { MODKEY|ControlMask,   		XK_c,    spawn,           {.v = clion}},
