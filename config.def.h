@@ -41,6 +41,7 @@ static const Rule rules[] = {
     { "Eclipse",                "Eclipse",              NULL,                   1 << 0,       0,           -1 },
     { "Code",                   "code",                 NULL,                   1 << 0,       0,           -1 },
 	{ "firefox",                NULL,                   NULL,                   1 << 1,       0,           -1 },
+	{ "Brave-browser",          "brave-browser",        NULL,                   1 << 1,       0,           -1 },
 	{ "Zenkit",                 "zenkit",               NULL,                   1 << 2,       0,           -1 },
     { "Joplin",                 "joplin",               NULL,                   1 << 2,       0,           -1 },
     { "figma-linux",            "figma-linux",          NULL,                   1 << 3,       0,           -1 },
