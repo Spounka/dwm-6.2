@@ -53,7 +53,7 @@ static const Rule rules[] = {
 	{ "Thunderbird",            "Mail",                 NULL,                   1 << 6,       0,           -1 },
 	{ "TelegramDesktop",        "telegram-desktop",     NULL,                   1 << 7,       0,           -1 },
     { "discord",                "discord",              NULL,                   1 << 7,       0,           -1 },
-	{ "st-256color",            "st-256color",          "cmus v2.9.1",          1 << 8,       0,           -1 },
+	{ "st-256color",            "st-256color",          "cmus",                 1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
